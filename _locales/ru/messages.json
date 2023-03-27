@@ -1,0 +1,23 @@
+{
+	"extensionDescription": {
+		"message": "Превращает ваши огромные файлы в короткие ссылки"
+	},
+	"extensionName": {
+		"message": "Freecosys - Провайдер FileLink"
+	},
+	"serviceName": {
+		"message": "Freecosys"
+	},
+	"prefspaneLabelInputUpload": {
+		"message": "Адресс выгрузки:"
+	},
+	"prefspaneLabelInputDownload": {
+		"message": "Адресс публикации:"
+	},
+	"prefspaneLabelInputToken": {
+		"message": "Токен:"
+	},
+	"prefspaneButtonSave": {
+		"message": "Сохронить"
+	}
+}

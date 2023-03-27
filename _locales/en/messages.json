@@ -1,0 +1,23 @@
+{
+	"extensionDescription": {
+		"message": "Turns your huge files into short links"
+	},
+	"extensionName": {
+		"message": "Freecosys - FileLink provider"
+	},
+	"serviceName": {
+		"message": "Freecosys"
+	},
+	"prefspaneLabelInputUpload": {
+		"message": "Unloading address:"
+	},
+	"prefspaneLabelInputDownload": {
+		"message": "Publication address:"
+	},
+	"prefspaneLabelInputToken": {
+		"message": "Token:"
+	},
+	"prefspaneButtonSave": {
+		"message": "Save"
+	}
+}

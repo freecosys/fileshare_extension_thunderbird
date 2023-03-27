@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script src="management.js" type="application/javascript" defer=""></script>
+		<style type="text/css">
+			:root {
+				font: message-box;
+				color: #0c0c0d;
+			}
+			body {
+				font-size: 1.1em;
+			}
+			ul {
+				list-style: none;
+				padding: 0;
+			}
+			h1 {
+				font-weight: 600;
+				font-size: 1.25em;
+				margin-top: 0;
+				margin-bottom: 0.5em;
+			}
+			h2 {
+				font-weight: 600;
+				font-size: 1.1em;
+				margin: 0.5em 0;
+			}
+			p {
+				margin: 0.5em 0;
+			}
+			input {
+				width: 100%;
+				box-sizing: border-box;
+			}
+			fieldset {
+				margin: 0 0 32px;
+				padding: 0;
+				border-style: none !important;
+			}
+			legend {
+				margin: 16px 0 4px;
+				font-size: 1.1em;
+				font-weight: 600;
+				line-height: 1.4em;
+			}
+			.input-container {
+				display: flex;
+				align-items: center;
+				flex-wrap: nowrap;
+				padding: 4px 0px;
+			}
+			label {
+				cursor: default;
+				margin-block: 1px 2px;
+				margin-inline: 6px 5px;
+				line-height: 1.8em;
+				margin: 0;
+			}
+			button {
+				font-weight: 400;
+				border-radius: 3px;
+				padding: 0 12px;
+				margin-inline: 4px;
+				appearance: none;
+				color: #15141a;
+				border: 1px solid #d3d3d3;
+				background-color: #e6e6e6;
+				text-decoration: none;
+				font-size: 1em;
+				margin: 1px 5px 2px;
+				padding: 4px 8px;
+				min-width: 6.3em;
+				text-shadow: none;
+			}
+			input {
+				flex: 1;
+				padding-block: initial;
+				min-height: calc(2.2em - 2px);
+				border-radius: 3px;
+				font: inherit;
+				font-family: inherit;
+				font-size: inherit;
+				padding: 4px 8px;
+				margin: 2px 4px;
+				appearance: none;
+				border: 1px solid #9f9ea1;
+				border-radius: 4px;
+				color: inherit;
+				background-color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend data-message="serviceName"></legend>
+				<div class="input-container">
+					<label data-message="prefspaneLabelInputUpload"></label>
+					<input type="url" name="private_url"/>
+				</div>
+				<div class="input-container">
+					<label data-message="prefspaneLabelInputDownload"></label>
+					<input type="url" name="public_url"/>
+				</div>
+				<div class="input-container">
+					<label data-message="prefspaneLabelInputToken"></label>
+					<input type="text" name="token_web"/>
+				</div>
+
+				<div style="text-align: right"><button type="button" data-message="prefspaneButtonSave"></button></div>
+			</fieldset>
+		</form>
+	</body>
+</html>

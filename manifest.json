@@ -1,0 +1,33 @@
+{
+	"manifest_version": 2,
+	"default_locale": "en",
+	"applications": {
+		"gecko": {
+			"id": "freecosys@birdiecode.ru",
+			"strict_min_version": "91.0",
+			"strict_max_version": "102.*"
+		}
+	},
+	"name": "__MSG_extensionName__",
+	"description": "__MSG_extensionDescription__",
+	"homepage_url": "https://github.com/freecosys/fileshare_extension_thunderbird",
+	"author": "birdiecode",
+	"version": "1.0.0",
+	"icons": {
+		"48": "icon48.png"
+	},
+	"permissions": [
+		"<all_urls>",
+		"storage",
+		"menus"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"cloud_file": {
+		"name": "__MSG_serviceName__",
+		"management_url": "prefspane/management.html"
+	}
+}
